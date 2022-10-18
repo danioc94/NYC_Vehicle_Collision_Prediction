@@ -6,3 +6,5 @@ Answering the above questions can provide insights on how often and where accide
 
 # Description of the data
 To determine the above, we will use the “Motor Vehicle Collisions – Crash” dataset provided by the NYPD which is updated weekly with collision reports for over $1000 or injuries or fatalities have occurred. The dataset includes 1,935,922 rows of information for the years 2012, and 2016-present including information such as time of incident, location, injuries, fatalities, and cause of the accident.
+
+Link to dataset: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95
