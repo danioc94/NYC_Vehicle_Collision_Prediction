@@ -16,7 +16,8 @@ Link to dataset: https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Colli
 We will communicate through Slack during class hours as well as when needed. We will discuss challenges that are being faced for each deliverable.
 
 # Current roles
-Sam: Circle
-Yuyu: Triangle
-Daniel: Square
-Subrata: X
+
+- Sam: Circle
+- Yuyu: Triangle
+- Daniel: Square
+- Subrata: X
