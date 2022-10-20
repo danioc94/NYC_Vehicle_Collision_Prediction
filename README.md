@@ -1,9 +1,9 @@
 # NYC Vehicle Collision Prediction
 
 # Selected Topic
-The goal of this project is to predict the number of accidents that will occur during the year XXX by training a machine learning model that will read in data from the years XXX – XXX.
+The goal of this project is to predict the number of accidents that will occur during the year 2018 by training a machine learning model that will read in data from the years 2016 – 2017.
 
-#Questions to be answered
+# Questions to be answered
 Additionally, we want to determine during which periods of time do accidents occur more, as well as finding which borough is more dangerous to drive. Answering the above questions can provide insights on how often and where accidents will happen in the nearby future. This can be used to help the NYPD and local agencies to draft out solutions to prevent future accidents.
 
 # Description of the data
