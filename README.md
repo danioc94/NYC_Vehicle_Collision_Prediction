@@ -22,10 +22,10 @@ We will communicate through Slack during class hours as well as when needed. We 
 - Daniel: Square
 - Subrata: X
 
+
 # Machine Learning Model
 
 For our machine learning model, we will be using a linear regression model. We chose this model because we want to predict how often car crashes happen and the location of these accidents in New York City.  Our y- variable will be the number of accidents with injuries and fatalities, the input will be time and borough.
 
 ![image (1)](https://user-images.githubusercontent.com/85198012/196573742-1faede1b-da30-4511-9aa1-ab8bbb4c9b9e.png)
-
 
