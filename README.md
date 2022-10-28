@@ -36,5 +36,7 @@ For our machine learning model, we will be using two multilinear regression mode
 ![image (1)](https://user-images.githubusercontent.com/85198012/196573742-1faede1b-da30-4511-9aa1-ab8bbb4c9b9e.png)
 
 
+Link to Google slides: https://docs.google.com/presentation/d/1OXUMw8YbhUaa9sdmAllezaqRxmlA8wUQ_UAXln9Wo0c/edit?usp=sharing
 
+Link to dashboard: https://docs.google.com/presentation/d/1yHUWZ7sy7ZK2-HJEY1DQaOSAP7FX2-gnOIkRsQApQBg/edit?usp=sharing
 
