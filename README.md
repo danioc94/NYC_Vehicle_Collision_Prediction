@@ -23,12 +23,20 @@ We will communicate through Slack during class hours as well as when needed. We 
 - Subrata: X
 
 
+# Database
+
+To store our data we are using the pgAdmin 4 software to create a PostgresSQL database. In a python script we cleaned the original data into three separate data frames. The first data frame included the Collision ID, the Number of Persons Injured, and the Number of Persons Killed. The second data frame included the Collision ID, the BGorough, and the Zip Code. The third data frame included the Collision ID, the Crash Date, and the Crash Time. Each data frame was cleaned to remove null values from the dataset. These data frames were then uploaded to the PostgresSQL database as tables labeled, "collisions", "locations", and "date_time" respectively. 
+
+
+
 # Machine Learning Model
 
 For our machine learning model, we will be using two multilinear regression models. One model will in charge of predicting the total number of fatalaties and the other will predict the total number of injuries. For both models we will be using the time and borough as input features.
 
 ![image (1)](https://user-images.githubusercontent.com/85198012/196573742-1faede1b-da30-4511-9aa1-ab8bbb4c9b9e.png)
 
+
 Link to Google slides: https://docs.google.com/presentation/d/1OXUMw8YbhUaa9sdmAllezaqRxmlA8wUQ_UAXln9Wo0c/edit?usp=sharing
 
 Link to dashboard: https://docs.google.com/presentation/d/1yHUWZ7sy7ZK2-HJEY1DQaOSAP7FX2-gnOIkRsQApQBg/edit?usp=sharing
+
