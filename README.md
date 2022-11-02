@@ -46,7 +46,7 @@ The Borough column is also converted from one object column to five different fe
 The final step that is performed on the data before entering the model creation and traing is to scale it using StandardScaler(). This is implemented once the data has been split into training and testing.
 
 ## Description of feature engineering and feature selection, including decision making process.
-
+After going over the original raw dataset, we noticed many columns had empty information making these useless for any analysis to be done. Since we are looking to run a model that can predict future injuries and deaths many columns such as "Latitude", "Longitude", or "Vehicle types" have meaningless information that can help build the classifier. Other feature columns such as Motorist, Cyclist, and Pedestrian are redundant since we have columns that have this overall data summed. With all this in mind, we determined the only the useful columns to be used will be "Number of Persons Killed", "Number of Persons Injured", "Crash Date", "Crash Time", "Borough", and "Zip Code".
 
 ## Description of how data was split into training and testing sets
 
