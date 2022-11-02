@@ -49,7 +49,7 @@ The final step that is performed on the data before entering the model creation 
 After going over the original raw dataset, we noticed many columns had empty information making these useless for any analysis to be done. Since we are looking to run a model that can predict future injuries and deaths many columns such as "Latitude", "Longitude", or "Vehicle types" have meaningless information that can help build the classifier. Other feature columns such as Motorist, Cyclist, and Pedestrian are redundant since we have columns that have this overall data summed. With all this in mind, we determined the only the useful columns to be used will be "Number of Persons Killed", "Number of Persons Injured", "Crash Date", "Crash Time", "Borough", and "Zip Code".
 
 ## Description of how data was split into training and testing sets
-
+We used sklearn.model_selection.train_test_split function with its default settings which sets training data to use 75% of the dataset while the pending 25% will be used as testing sets. The 2016 and 2017 datasets have combined 296,150 rows of examples, meaning 222,113 examples were used for training and 74,037 examples were used for testing.
 
 ## Explanation of model choice including limitations and benefits
 
