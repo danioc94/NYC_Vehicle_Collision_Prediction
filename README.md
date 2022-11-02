@@ -20,18 +20,46 @@ We will communicate through Slack during class hours as well as when needed. We 
 - Sam: Circle
 - Yuyu: Triangle
 - Daniel: Square
-- Subrata: X
 
 
 # Database
 
-To store our data we are using the pgAdmin 4 software to create a PostgresSQL database. In a python script we cleaned the original data into three separate data frames. The first data frame included the Collision ID, the Number of Persons Injured, and the Number of Persons Killed. The second data frame included the Collision ID, the BGorough, and the Zip Code. The third data frame included the Collision ID, the Crash Date, and the Crash Time. Each data frame was cleaned to remove null values from the dataset. These data frames were then uploaded to the PostgresSQL database as tables labeled, "collisions", "locations", and "date_time" respectively. 
-
-
+To store our data we are using the pgAdmin 4 software to create a PostgresSQL database. In a python script we cleaned the original data into three separate data frames. The first data frame included the Collision ID, the Number of Persons Injured, and the Number of Persons Killed. The second data frame included the Collision ID, the orough, and the Zip Code. The third data frame included the Collision ID, the Crash Date, and the Crash Time. Each data frame was cleaned to remove null values from the dataset. These data frames were then uploaded to the PostgresSQL database as tables labeled, "collisions", "locations", and "date_time" respectively. 
 
 # Machine Learning Model
 
 For our machine learning model, we will be using two multilinear regression models. One model will in charge of predicting the total number of fatalaties and the other will predict the total number of injuries. For both models we will be using the time and borough as input features.
+
+## Description of data preprocessing
+We first start off by reading our Collision, Datetime, and Locations tables from our SQL DB and merge these onto one unique data set. While doing we also drop the Index and Collision ID columns. We then make sure we do not have any empty rows by running dropna on our dataframe. The merged dataframe after dropping the rows and columns looks like image below.
+
+![image](https://user-images.githubusercontent.com/20058842/199558345-82de1e13-456f-4e4f-bccf-9852d3d21e2d.png)
+
+With this initial step completed we proceed to filter our accidents that occurred during 2016-2017. We also rename the columns to shorten their names. Since Sklearn models need data in float datatypes we convert the Date and Time columns to float using np.timedelta64() which assigns unique values to each data and time on our dataset. We now have the following types:
+
+![image](https://user-images.githubusercontent.com/20058842/199556039-3e542d38-0892-435c-90de-7915ed7a9a8f.png)
+
+The Borough column is also converted from one object column to five different features using pd.get_dummies() which performs a "One-hot encoding" for each borough. The dataframe now looks like the following:
+
+![image](https://user-images.githubusercontent.com/20058842/199557086-201a93b4-a897-435f-881b-af5bb9cc5eac.png)
+
+The final step that is performed on the data before entering the model creation and traing is to scale it using StandardScaler(). This is implemented once the data has been split into training and testing.
+
+## Description of feature engineering and feature selection, including decision making process.
+
+
+## Description of how data was split into training and testing sets
+
+
+## Explanation of model choice including limitations and benefits
+
+
+## Description of trained model
+
+
+## Description of current accuracy score
+
+
 
 ![image (1)](https://user-images.githubusercontent.com/85198012/196573742-1faede1b-da30-4511-9aa1-ab8bbb4c9b9e.png)
 
