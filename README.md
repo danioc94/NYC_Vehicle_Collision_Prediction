@@ -61,7 +61,7 @@ On another hand, the deaths prediction model obtained 99% of accuracy with train
 
 ## Links
 
-Link to Google slides: https://docs.google.com/presentation/d/1OXUMw8YbhUaa9sdmAllezaqRxmlA8wUQ_UAXln9Wo0c/edit?usp=sharing
+Link to Google slides: https://docs.google.com/presentation/d/1ycnPm5QRXf4FZhEm2gEF5qPiWnefdNTztuSbTQUbRxQ/edit#slide=id.p
 
 Link to Tableau Dashboard: https://public.tableau.com/app/profile/noi1660/viz/NYC_Collision_Dashboard_16675219985570/NYCVehicleCollisionAnalysisDashboard?publish=yes
 
